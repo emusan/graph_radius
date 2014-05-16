@@ -6,6 +6,9 @@
 # 	device - configure the next build to target the fpga (need to run a make after)
 # 	program - program the device using digilents tools
 
+DEVICE=Basys2
+PROJECT=graph_radius
+
 if [[ "$#" -eq "0" ]]; then
 	echo "Please enter an option"
 	echo "----------------------------------------"
