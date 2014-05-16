@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/tom/progs/fpga/graph_radius/ise/graph_radius.ncd
+OUTFILE=/home/tom/progs/fpga/graph_radius/ise/graph_radius.bit
+FAMILY=Spartan3E
+PART=xc3s250e-5cp132
+WORKINGDIR=/home/tom/progs/fpga/graph_radius/ise
+LICENSE=WebPack
+USER_INFO=210823444_0_0_054
