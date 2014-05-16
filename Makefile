@@ -9,6 +9,7 @@ BUILD_DIR = build
 all: syn tran map par trce bit
 
 syn:
+	@source xilinx_settings.sh
 	@echo "Make: Synthesizing"
 	@mkdir -p $(BUILD_DIR)
 	@cd $(BUILD_DIR); \
