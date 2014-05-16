@@ -73,4 +73,3 @@ bit:
 clean:
 	@rm -R $(BUILD_DIR)
 	@rm $(PROJECT_NAME).bit
-
